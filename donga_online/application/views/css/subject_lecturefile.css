@@ -1,0 +1,116 @@
+.lecturefile{
+    width: 100%;
+}
+.lecturefile_t{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid .5px rgba(156, 126, 126, 0.651);
+}
+.lecturefile_t_f1{
+    font-size: 14px;
+    
+}
+.lecturefile_search{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 540px;
+}
+.lecturefile_search_text{
+    font-size: 14px;
+    height: 38px;
+    border-radius: 5px;
+    border: solid .5px rgba(156, 126, 126, 0.651); 
+    width: 340px;
+}
+.lecturefile_search_key{
+    font-size: 17px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 5px;
+    padding:0px 10px;
+    height: 38px;
+    border: solid .5px rgba(156, 126, 126, 0.651); 
+    width: 58px;
+
+}
+.lecturefile_search_select{
+    font-size: 17px;
+    padding:6px 10px;
+    border-radius: 5px;
+    height: 38px;
+    border: solid .5px rgba(156, 126, 126, 0.651); 
+    width: 126px;
+}
+.lecturefile_list{
+    padding: 10px 0px;
+    border-bottom:  solid .5px rgba(156, 126, 126, 0.651); 
+}
+.lecturefile_uni {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.lecturefile_uni_f {
+    display: flex;
+    align-content: center;
+}
+.lecturefile_uni_f2{
+    margin-left: 10px;
+}
+.lecturefile_uni_f2_title{
+    font-weight: bold;
+}
+.lecturefile_uni_f2_type{
+    display: flex;
+}
+.lecturefile_uni_f2_type_name{
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgba(71, 63, 63, 0.951); 
+}
+.lecturefile_uni_f1{
+
+    border: solid .5px rgba(156, 126, 126, 0.651); 
+    width: 138px;
+    height: 78px;
+}
+.lecturefile_uni_p{
+    display: flex;
+}
+.lecturefile_uni_p1{
+    font-size: 17px;
+}
+.lecturefile_uni_p2{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 1110px){
+    .lecturefile_search_select{
+        display: none;
+    }
+    .lecturefile_search{
+        width: 262px;
+    }
+    .lecturefile_search_text{
+        width: 210px;
+    }
+    .lecturefile_search_key{
+        width: 46px;
+        text-align: center;
+        padding: 0px;
+    }
+    .lecturefile_uni_f1{
+        width: 80px;
+        height: 45px;
+    }
+    .lecturefile_uni_f2_title{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

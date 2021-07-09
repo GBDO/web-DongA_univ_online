@@ -1,0 +1,32 @@
+.header {
+    position:fixed;
+    height: 100%;
+    background-color: rgb(6, 130, 179); 
+    width: 60px;
+}
+
+.header_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100%;
+}
+
+.header_list {
+    padding: 0px;
+}
+
+.header_list-link i {
+    font-size: 26px;
+    padding: 15px;
+}
+
+
+.header_list-item:hover {
+    background-color: rgb(5, 93, 128); 
+}
+
+.header_list-item:active {
+    background-color: rgb(255, 255, 255); 
+}
